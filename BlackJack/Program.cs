@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//***Built by "The Green Group" for a class in TUC-Sweden school***
+//In Alphabetical order of the last name, Abraham Eishow, Alexander Holm, Daniel Ny, Mikael Sundqvist, Jonas Tärnemark.
+
 namespace BlackJack
 {
     class MainClass
