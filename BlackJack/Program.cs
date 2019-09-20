@@ -83,7 +83,7 @@ namespace BlackJack
             {
                 if (players[i].CurrentValue[0] >21 )
                 {
-                    Console.WriteLine($"{players[i].PlayerName}, you got over 21!");
+                    Console.WriteLine($"{players[i].PlayerName} got over 21!");
                 } else if ((players[i].CurrentValue[0] <= 21 && players[i].CurrentValue[0] > dealer.DealerValue[0]) || (players[i].CurrentValue[0] <= 21 && dealer.DealerValue[0] >21)  )
                 {
                     Console.WriteLine($"{players[i].PlayerName} Wins!");

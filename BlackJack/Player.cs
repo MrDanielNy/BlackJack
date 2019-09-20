@@ -100,8 +100,15 @@ namespace BlackJack
                         Console.ReadLine();
                         break;
                     }
+
+                    if(playersList[i].CurrentValue[0] == playersList[i].CurrentValue[1])
+                    {
+                        Console.Write($"{playersList[i].PlayerName}: You got {playersList[i].CurrentValue[0]}, do you want to (H)it or (S)tand? ");
+                    } else
+                    {
+                        Console.Write($"{playersList[i].PlayerName}: You got {playersList[i].CurrentValue[0]} / {playersList[i].CurrentValue[1]}, do you want to (H)it or (S)tand? ");
+                    }
                     
-                    Console.Write($"{playersList[i].PlayerName}: Do you want to (H)it or (S)tand? ");
                     
                     string playerChoise = Console.ReadLine();
                     if (playerChoise.ToLower() == "h")
